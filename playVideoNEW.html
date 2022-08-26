@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube</title>
+    <script
+      src="https://kit.fontawesome.com/584aebd994.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style/index.css" />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav id="NavBarY">
+      <div id="FNav">
+        <div id="logoYoutube">
+          <img src="./IMG/navbarYoutubeIcon.png" alt="" />
+        </div>
+        <form id="serachParent">
+          <div id="SearchLogo">
+            <img src="./IMG/serchLogo.png" alt="" />
+          </div>
+          <div id="inputDiv">
+            <input
+              id="inputTagSearch"
+              type="text"
+              placeholder="Search"
+              onclick="displaySearch()"
+            />
+          </div>
+          <button type="submit" id="SearchLogoV">
+            <img src="./IMG/serchLogo.png" alt="" />
+          </button>
+        </form>
+        <img id="mic" src="./IMG/mic.png" alt="" />
+
+        <div id="serachUserNav">
+          <img src="./IMG/create.png" alt="" />
+          <img src="./IMG/Galary.png" alt="" />
+          <img src="./IMG/bellicon.png" alt="" />
+          <img src="./IMG/014.jpg" alt="" />
+        </div>
+      </div>
+    </nav>
+    <!-- nav bar end -->
+    <!-- play video-->
+    <section id="secVideo">
+      <div id="containerVideo"></div>
+    </section>
+    <!-- play video end-->
+  </body>
+</html>
+<script src="./script/play.js"></script>
